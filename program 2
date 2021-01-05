@@ -1,0 +1,92 @@
+KIET applied the odd-even rule on the basis of the sum of the last two digits of the registered number. Now government want a program to check that
+ the car is allowed on that particular day or not.
+
+In this you need to take last 2 digit number from user and todya's date (only dd). If there is a match (like even - even or odd-odd) then show "Yes" else "No". 
+
+*If car number sum is 0 then consider it as even
+*For any invalid input print "Invalid input"
+
+Sample Input 1:
+Enter last 2 digits your registered number:
+33 
+Enter today's date (dd):
+12
+
+Sample Output 1:
+Yes
+
+Sample Input 2:
+Enter last 2 digits your registered number:
+91
+Enter today's date (dd):
+05
+
+Sample Output 2:
+No
+
+Test Case 1:
+
+Input:
+Enter last 2 digits your registered number:
+00
+Enter today's date (dd):
+01
+
+Output:
+No
+
+
+Test Case 2:
+
+Input:
+Enter last 2 digits your registered number:
+00
+Enter today's date (dd):
+02
+
+Output:
+Yes
+
+Test Case 3:
+
+Input:
+Enter last 2 digits your registered number:
+102
+Enter today's date (dd):
+02
+
+Output:
+Invalid input
+
+Test Case 3:
+
+Input:
+Enter last 2 digits your registered number:
+12
+Enter today's date (dd):
+02
+
+Output:
+Yes
+
+Test Case 4:
+
+Input:
+Enter last 2 digits your registered number:
+-12
+Enter today's date (dd):
+02
+
+Output:
+Invalid input
+
+Test Case 5:
+
+Input:
+Enter last 2 digits your registered number:
+89
+Enter today's date (dd):
+23
+
+Output:
+YES
